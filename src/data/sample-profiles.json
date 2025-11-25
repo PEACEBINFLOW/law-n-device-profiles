@@ -1,0 +1,33 @@
+[
+  {
+    "deviceId": "sample-phone-5g",
+    "deviceType": "phone",
+    "vendor": "ExampleVendor",
+    "model": "XV-5G",
+    "os": "Android",
+    "osVersion": "14",
+    "supportedGLayers": ["4G", "5G"],
+    "networkInterfaces": [
+      { "type": "cellular" },
+      { "type": "wifi" }
+    ],
+    "supportsMimo": true,
+    "supportsBeamforming": true,
+    "supportsNetworkSlicing": true,
+    "regionCode": "BW"
+  },
+  {
+    "deviceId": "sample-laptop-wifi",
+    "deviceType": "computer",
+    "vendor": "ExampleVendor",
+    "model": "DevBook",
+    "os": "Linux",
+    "osVersion": "6.0",
+    "supportedGLayers": [],
+    "networkInterfaces": [
+      { "type": "wifi" },
+      { "type": "ethernet" }
+    ],
+    "regionCode": "BW"
+  }
+]
