@@ -1,0 +1,26 @@
+{
+  "name": "law-n-device-profiles",
+  "version": "0.1.0",
+  "description": "TypeScript library and schemas for Law-N device & G-layer profiles — classifying phones, computers, and IoT under the Network Renaissance.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node dist/tests/classifier.test.js",
+    "example": "npm run build && node dist/examples/classify-device.js"
+  },
+  "keywords": [
+    "law-n",
+    "network-renaissance",
+    "device-profiles",
+    "g-layer",
+    "telecom",
+    "networking"
+  ],
+  "author": "Peace Thabiwa",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
